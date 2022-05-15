@@ -1,0 +1,282 @@
+*
+{
+        margin: 0;
+        padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-light
+{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding: 0 !important;
+}
+.navbar-brand img
+{
+    height: 70px;
+    padding-left: 20px; 
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.navbar-toggler-icon
+{
+    color: rgb(255, 255, 255);
+    font-size: 20px !important;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+/*----------------------------------------------banner--------------------------------*/
+#banner
+{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: #fff;
+    padding-top: 5%;
+}
+.promo-title
+{
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.play-btn
+{
+    width: 25px;
+    margin: 20px;
+}
+.img-fluid
+{
+    width: 500px;
+    display: block;
+    margin: auto;
+        
+}
+#banner a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.bottom-img
+{
+    width: 100%;
+    
+}
+/**----------------------------------test inteligencia emocional ----------------------------------*/
+
+#test
+{
+    padding: 80px 0;
+}
+.inteligencia-img
+{
+    width: 400px;
+    margin-top: 20px;
+}
+.inteligencia
+{
+    padding: 20px 0;
+}
+.inteligencia h4
+{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.title::before
+{
+    content: '';
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after
+{
+    content: '';
+    background: #FFC300;
+    height: 5px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(15px);
+}
+
+.lista
+{
+    list-style-position: inside;
+    text-align: left;
+
+}
+.lista li{
+    position: relative;
+    left: 30px;
+  }
+.mensaje-incial
+{
+    font-style: italic !important;
+    color:rgb(0, 0, 0);
+}
+.questions{
+    margin: 3rem auto;
+    width: 800px;
+    padding: 2rem;
+    background:linear-gradient(to right, #a517ba, #5f1782);
+    cursor: default;
+    border-radius: 1rem;
+}
+#question{
+    margin-bottom: 1rem;
+    color: white;
+}
+.option{
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    border-bottom: solid 0.1rem black;
+    width: 700px;
+    background: white;
+    border-radius: 1rem;
+}
+.option:hover{
+    color: rgb(10, 190, 217);
+}
+ol{
+    position: relative;
+    padding: 0 1.5rem;
+    color: rgb(1,73,73);
+}
+span{
+    display: block;
+    padding: 0.1rem 0.7rem;
+    border-radius: 1rem;
+}
+#answer{
+    margin-top: 2.5rem;
+}
+#stat{
+    margin-top: 1.5rem;
+    color: rgb(255, 255, 255);
+}
+.buttons{
+    text-align: center;
+}
+button{
+    
+    box-shadow:none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px!important;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: white;
+}
+button:active{
+    background: lavender;
+}
+#scoreboard,#answerBank{
+    width: 40rem;
+    background: rgba(255, 255, 255, 0.77);
+    padding: 2rem;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 5rem;
+    bottom: 5 rem;
+    display: none;
+}
+#score-title{
+    margin: 1rem 0;
+}
+#score-btn,#check-answer{
+    margin-top: 1rem;
+}
+#score{
+    font-size: 2.5rem;
+}
+#answerBank li{
+    text-align: left;
+    margin-bottom: 0.2rem;
+    font-size: larger;
+}
+#answers{
+    margin-top: 1rem;
+}
+
+/*---------------------seccion de footer-------------------------------*/
+#footer
+{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: #fff;
+}
+.footer img
+{
+    width: 100%;
+}
+.footer-box
+{
+    padding: 20px;
+}
+.footer-box img
+{
+    padding: 12px;
+    margin-bottom: 20px;
+    width: 200px;
+}
+.footer-box .fa 
+{
+    margin: right 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+.footer-box .form.control
+{
+    box-shadow: none !important; 
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.footer-box .btn-primary
+{
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+hr
+{
+background-color: #fff;
+}
+.copyright
+{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
