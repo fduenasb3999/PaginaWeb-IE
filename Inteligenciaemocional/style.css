@@ -1,0 +1,490 @@
+*
+{
+        margin: 0;
+        padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-light
+{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding: 0 !important;
+}
+.navbar-brand img
+{
+    height: 70px;
+    padding-left: 20px; 
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.navbar-toggler-icon
+{
+    color: rgb(255, 255, 255);
+    font-size: 20px !important;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+/*----------------------------------------------banner--------------------------------*/
+#banner
+{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: #fff;
+    padding-top: 5%;
+}
+.promo-title
+{
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.play-btn
+{
+    width: 25px;
+    margin: 20px;
+}
+.img-fluid
+{
+    width: 500px;
+    display: block;
+    margin: auto;
+        
+}
+#banner a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.bottom-img
+{
+    width: 100%;
+    
+}
+/**----------------------------------inteligencia emocional ----------------------------------*/
+
+#inteligencia
+{
+    padding: 80px 0;
+}
+.inteligencia-img
+{
+    width: 400px;
+    margin-top: 20px;
+}
+.inteligencia
+{
+    padding: 20px 0;
+}
+.inteligencia h4
+{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.title::before
+{
+    content: '';
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+.title::after
+{
+    content: '';
+    background: #FFC300;
+    height: 5px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(15px);
+}
+
+#inteligencia .btn-primary
+{
+    box-shadow:none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+.song
+{
+    font-style: italic !important;
+    color:rgb(147, 147, 147);
+    line-height : 10px;
+}
+.mensaje-incial
+{
+    font-style: italic !important;
+    color:rgb(147, 147, 147);
+}
+.mensaje-cita
+{
+    font-style: italic !important;
+    color:rgb(147, 147, 147);
+    text-align: right; 
+}
+/*----------------------------------------precios---------------------------------------*/
+#precios
+{
+    background: #f8f9fa;
+    padding-bottom: 10px;
+    padding-top: 70px;
+}
+.precios-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+#precios ul li
+{
+    margin: 10px 0;
+}
+#precios ul
+{
+    margin-left: 20px;
+
+}
+
+.precios-img
+{
+    height: 600px;
+    display: block;
+    margin: auto;
+}
+.table-sm
+{
+    margin: 10px;
+    margin-top: 80px;
+    text-align: center;
+}
+/*--------------------------------------Quienes somos -----------------------------------*/
+#quienes
+{
+    margin: 100px 0;
+}
+
+.review-box{
+    width:90%;
+    max-width:700px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: -10px 10px 40px rgba(0,0,0,0.25);
+    position: relative;
+    overflow: hidden;
+}
+.card{
+   height: 300px;
+   padding: 40px;
+   color: #777;
+   line-height: 22px;
+   box-sizing: border-box; 
+   background: #fff;
+   position: relative;
+   z-index: 1;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    }
+.profile img{
+    width: 70px;
+    border-radius: 50%;
+    margin-right: 20px;
+    }
+.profile h3{
+ font-size: 26px;
+ color: #5f1782;
+ margin-bottom: 8px;
+    }
+#slide{
+    width: 100%;
+    padding-right: 60px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.sidebar{
+    width: 60px;
+    height: 100%;
+    padding: 15px 0;
+    box-sizing: border-box;
+    background: #5f1782;
+    position: absolute;
+    right:0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.sidebar img{
+    width: 25px;
+    padding: 5px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.card::before{
+    content: '';
+    width: 110px;
+    height: 110px;
+    border-bottom-right-radius: 100%;
+    background: #5f1782;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+::selection{
+    background: #5f1782;
+    color: #fff;
+}
+/*--------------redes sociales-----------*/
+#social-media
+{
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+#social-media p
+{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.social-icons img
+{
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icons a:hover img
+{
+    transform: translateY(-10px);
+}
+/*--------------encuesta-----------*/
+#encuesta
+{
+    background: #fff;
+    padding: 100px 0;
+}
+#encuesta p
+{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.wrapper{
+    background:#fff;
+    border-radius: 15px;
+    max-width: 380px;
+    width: 100%;
+    padding: 25px;
+
+}
+.wrapper .seccion-encuesta{
+    margin: 20px 0 15px 0;
+}
+.seccion-encuesta label{
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 8px 15px; 
+    border: 2px solid #e6e6e6;
+    transition: all 0.2 ease;
+}
+label.selected{
+    border-color: #a517ba!important;
+  }
+label .row1{
+    display: flex;
+    justify-content: space-between;
+
+}
+label .row1 .circle1{
+    height: 19px;
+    width: 19px;
+    position: relative;
+    display: block;
+    margin-right: 10px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+}
+label.selected .row1 .circle1{
+    border-color: #a517ba;
+  }
+.row1 .circle1::after{
+    content: "";
+    position: absolute;
+    height: 11px;
+    width: 11px;
+    background: #ccc;
+    top: 2px;
+    left: 2px;
+    border-radius: inherit;
+    display: none;
+}
+label.selected .row1 .circle1::after{
+    display: block;
+    background: #a517ba!important;
+}
+.seccion-encuesta label:hover .row1 .circle1::after{
+    display: block;
+    background: #e6e6e6;
+}
+label .row1 span{
+    font-size: 16px;
+    font-weight: 500;
+}
+label .row1 .percent1{
+    display: none;
+}
+
+label .progress1{
+    height: 7px;
+    width: 100%;
+    position: relative;
+    margin: 8px 0 3px 0;
+    background:#f0f0f0;
+    border-radius: 30px;
+    display: none;
+}
+label .progress1::after{
+    content: "";
+    position: absolute;
+    left:0px;
+    height: 100%;
+    width: calc(1% * var(--w));
+    background: #a417ba3c;
+    border-radius: inherit;
+    transition: all 0.2s ease;
+}
+label.selected .progress1::after{
+    background: #a517ba;
+  }
+  label.selectall .progress1,
+  label.selectall .row1 .percent1{
+    display: block;
+  }
+
+/*---------------------seccion de footer-------------------------------*/
+#footer
+{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: #fff;
+}
+.footer img
+{
+    width: 100%;
+}
+.footer-box
+{
+    padding: 20px;
+}
+.footer-box img
+{
+    padding: 12px;
+    margin-bottom: 20px;
+    width: 200px;
+}
+.footer-box .fa 
+{
+    margin: right 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+.footer-box .form.control
+{
+    box-shadow: none !important; 
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.footer-box .btn-primary
+{
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+hr
+{
+background-color: #fff;
+}
+.copyright
+{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#mensaje
+{
+    background: #f8f9fa;
+    padding-bottom: 10px;
+    padding-top: 70px;
+}
+.mensaje-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+.gif
+{
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+
+#map {
+	height: 500px;
+	width: 100%;
+}
+
+#location{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
